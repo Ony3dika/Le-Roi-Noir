@@ -19,7 +19,7 @@ cart.map(
 
                 let noir = [image,proName,price]
 
-                console.log(noir)
+                //console.log(noir)
 
                 let cart;
 
@@ -31,6 +31,8 @@ cart.map(
                 }
                 cart.push(noir)
                 localStorage.setItem("cart",JSON.stringify(cart))
+
+                alert("Item Added To Cart")
             }
 
         })
