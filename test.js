@@ -32,7 +32,7 @@ cart.map(
                 cart.push(noir)
                 localStorage.setItem("cart",JSON.stringify(cart))
 
-                alert("Item Added To Cart")
+                //alert("Item Added To Cart")
             }
 
         })
