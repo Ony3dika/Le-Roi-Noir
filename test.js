@@ -30,6 +30,7 @@ cart.map(
                     cart = JSON.parse(localStorage.getItem("cart"))
                 }
                 cart.push(noir)
+
                 localStorage.setItem("cart",JSON.stringify(cart))
 
                 //alert("Item Added To Cart")
